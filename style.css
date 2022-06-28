@@ -1,0 +1,142 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.change {
+  background: white;
+  width: 30%;
+  height: 40vh;
+}
+body {
+  background: linear-gradient(
+    100deg,
+    rgba(189, 255, 255, 100),
+    rgba(228, 255, 255, 100)
+  );
+}
+.zero1,
+.zero2,
+.zero3 {
+  font-size: 50px;
+  font-weight: 800;
+  margin-top: 5rem;
+}
+.card1 button {
+  position: absolute;
+  bottom: 30px;
+  left: 17%;
+  padding: 10px;
+  border: 0;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.card1 button:hover {
+  cursor: pointer;
+}
+.card2 button {
+  position: absolute;
+  bottom: 30px;
+  left: 25rem;
+  padding: 10px;
+  border: 0;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.card2 button:hover {
+  cursor: pointer;
+}
+.card3 button {
+  position: absolute;
+  bottom: 30px;
+  right: 17%;
+  padding: 10px;
+  border: 0;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.card3 button:hover {
+  cursor: pointer;
+}
+main {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  max-width: 900px;
+  /* border: 2px solid black; */
+  margin: auto;
+  padding: 80px;
+  overflow: hidden;
+  box-sizing: border-box;
+  text-align: center;
+  gap: 10px;
+  position: relative;
+}
+
+.card1 {
+  background: rgba(56, 118, 29);
+  width: 30%;
+  padding: 40px;
+  height: 40vh;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.card2 {
+  background: rgba(255, 255, 255);
+  width: 30%;
+  padding: 40px;
+  height: 40vh;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.card-change {
+  background: rgba(255, 255, 255);
+  width: 30%;
+  padding: 40px;
+  height: 40vh;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.card-change2 {
+  background: rgba(56, 118, 29);
+  width: 30%;
+  padding: 40px;
+  height: 40vh;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.styling {
+  background: red;
+  width: 40%;
+  padding: 50px;
+  height: 50vh;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.card3 {
+  background: rgba(56, 118, 29);
+  width: 30%;
+  padding: 40px;
+  height: 40vh;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
